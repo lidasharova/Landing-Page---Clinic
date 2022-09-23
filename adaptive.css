@@ -1,0 +1,281 @@
+
+
+@media only screen and (min-width:1921px) {
+	#main, #reserve {
+			background-size: cover;
+		};
+}	
+
+@media only screen and (max-width:1199px) {
+	#main-header-menu{
+		margin-left: 0;
+	}
+
+	#main-header{
+		justify-content: space-between;
+	}
+	
+	#main-container{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	#about-container {
+		padding: 0 20px;
+		justify-content: center;
+	}
+
+	#about-container .about-item {
+		max-width: 450px;
+		margin: 15px;
+	}
+
+	#about-container .about-item > img {
+		max-width: 100%;
+	}
+	#services-title {
+		text-align: center;
+	}
+
+	#about-text{
+		margin-top: 25px;
+	}
+
+	#about-quote {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	
+	#about-quote-text {
+		margin-left: 10px;
+		padding-top: 0px;
+	}
+	#services-items-container {
+		justify-content: center;
+	}
+	
+	#doctors-images img{
+		max-width: 220px;
+	}
+
+	#doctors-title {
+		text-align: center;
+	}
+	
+	#doctors-images{
+		max-width: 950px;
+		margin: 0 auto;
+	}
+
+	#footer-time,
+	#footer-address,
+	#footer-phone {
+		margin-left: 0;
+	}
+
+
+	#footer-container {
+		justify-content: space-between;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#services {
+		margin-bottom: 0px;
+	}
+	
+}
+
+@media only screen and (max-width:1023px) {
+	#main-header-menu a.menu-item{
+		margin-right: 0;
+	}
+
+	#about-title{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#about {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	#services-title {
+		margin-bottom: 10px;
+	}
+	#reserve-container {
+		padding: 0 20px;
+	}
+
+	#doctors-images {
+		flex-wrap: wrap;
+		max-width: 500px;
+	}
+
+	#doctors-images img {
+		margin: 15px;
+	}
+
+	#doctors {
+		margin: 60px 0 80px 0;
+	}
+	#footer-phone {
+		order:2 ;
+	}
+
+	#footer-time{
+		order: 3;
+		margin-top: 30px;
+	}
+
+	#footer-address {
+		order: 4;
+		margin-top: 30px;
+	}
+
+	#footer-container{
+		flex-wrap: wrap;
+		max-width: 500px;
+		justify-content:space-between;
+	}
+	#footer-logo {
+		margin-left: 0px;
+	}
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+	#main-header-phone {
+		order: 2;
+		margin-left: 0px;
+		}
+
+	#main-header-menu {
+		order: 3;
+		margin-top: 20px;
+		
+	}
+
+	#main-header {
+		flex-wrap: wrap;
+		max-width: 360px;
+		margin: 0 auto;
+		justify-content: center;
+		
+	}
+	#main-header-phone span {
+		margin-left: 0px;
+	}
+	#main-header-phone img{
+		margin-left: 0px;
+	}
+	#main-header-logo span {
+		margin-right: 20px;
+	}
+	#main-header-menu a.menu-item {
+		margin-right: 11px;
+	}
+	#main-content {
+		margin-top: 120px;
+	}
+
+	#main-action {
+		margin-top: 54px;
+		margin-bottom: 110px;
+	}
+	#main-items {
+			max-width:370px;
+	}
+	#reserve-form input {
+			margin: 10px 0 0 0 ;
+	}
+
+	#reserve-form button {
+			margin: 15px 0 0 0;
+			width: 268px;
+	}
+
+	#reserve-form{
+			display: flex;
+			flex-wrap: wrap;
+	}
+	#reserve-text {
+			text-align: center;
+	}
+
+	#reserve {
+			padding: 60px 0;
+			margin-bottom: 60px;
+			background-size:cover ;
+	}
+
+	#doctors-images {
+			justify-content: center;
+	}
+	#doctors {
+			margin: 30px 0 20px 0;
+	}
+
+	#footer-logo, #footer-time, #footer-address, #footer-phone {
+		margin: 20px 0 0 0;
+		flex: 1 100% ;
+	}
+
+	#footer-container {
+		max-width: 300px;
+		box-sizing: border-box;
+		margin: 0 auto;
+
+	}
+	 #services {
+	    margin-bottom: 0px;
+	}
+
+}
+
+@media only screen and (max-width:424px) {
+	#main-header{
+		text-align: center;
+		justify-content: center;
+	}
+	#main-header-phone{
+		margin-top: 20px;
+	}
+	#main-header-menu{
+		line-height: 28px;
+	}
+	#main-header-logo{
+		flex: 1 100%;
+	}
+	#main-title{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	#main-action{
+		max-width: 100%;
+	}
+	#about-quote-img {
+		display: none;
+	}
+
+	#services-title{
+		margin: 0 auto;
+	}
+
+	.services-item{
+		width: 220px;
+		height: 200px
+	}
+
+}
+
+	
+@media only screen and (max-width:500px) {
+	#main-title {
+		font-size: 35px ;
+	}
+
+}
